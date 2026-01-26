@@ -8,17 +8,19 @@ const Header = () => {
     useEffect(() => {
 
         fetch('https://api.countapi.xyz/hit/ut_NmBFuVMRDDuriMAoRjqXytwTxFs9NbCQdC5aIfdk/visits')
-            .then(res => res.json())
-            .then(data => {
-            setVisitCount(data.value);
-            })
-            .catch(err => console.error("Erreur compteur:", err));
-        }, []);
-    //     const savedVisits = localStorage.getItem('visitor_count') || 1240;
-    //     const newCount = parseInt(savedVisits) + 1;
-    //     setVisitCount(newCount);
-    //     localStorage.setItem('visitor_count', newCount);
-    // }, [])
+            .then(res => {
+                if (!res.ok) throw new Error('Erreur API');
+                return res.json();
+                })
+                .then(data => {
+                setVisitCount(data.value);
+                })
+                .catch(err => {
+                console.error("Erreur compteur:", err);
+                // Fallback : on affiche un nombre par défaut si l'API échoue
+                setVisitCount(127); 
+                });
+            }, []);
 
     return(
         <>

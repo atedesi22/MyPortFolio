@@ -7,14 +7,14 @@ const Header = () => {
     
     useEffect(() => {
 
-        fetch('https://api.countapi.xyz/hit/ut_NmBFuVMRDDuriMAoRjqXytwTxFs9NbCQdC5aIfdk/visits')
-            .then(res => {
-                if (!res.ok) throw new Error('Erreur API');
-                return res.json();
-                })
-                .then(data => {
-                setVisitCount(data.value);
-                })
+        const key = 'atedesi-paul-emmanuel-portfolio';
+  const namespace = 'portfolio-v1';
+
+  fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
+    .then((res) => res.json())
+    .then((data) => {
+      setVisitCount(data.value);
+    })
                 .catch(err => {
                 console.error("Erreur compteur:", err);
                 // Fallback : on affiche un nombre par défaut si l'API échoue

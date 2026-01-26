@@ -9,7 +9,7 @@ const Home = () =>
     return(
         <>
         <body className='bg-black text-white font-bold'>
-            {/* <Navbar/> */}
+            <Navbar/>
         {/* <MobileNavbar/> */}
             <Header/> 
             <h1>My Portfolio</h1>

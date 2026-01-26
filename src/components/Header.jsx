@@ -7,7 +7,7 @@ const Header = () => {
     
     useEffect(() => {
 
-        const key = 'atedesi-paul-emmanuel-portfolio';
+        const key = 'ut_NmBFuVMRDDuriMAoRjqXytwTxFs9NbCQdC5aIfdk';
   const namespace = 'portfolio-v1';
 
   fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)

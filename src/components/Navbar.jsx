@@ -37,7 +37,7 @@ const Navbar = () =>
                         {/* DesktopMenu  */}
 
                     <div className='hidden md:flex items-center gap-8'>
-                        {navLinks.map((link) =>{
+                        {navLinks.map((link) =>(
                             <a 
                             key ={link.name}
                             href={link.href}
@@ -45,7 +45,7 @@ const Navbar = () =>
                             >
                                 {link.name}
                             </a>
-                            })
+                        ))
 
                         }
                         <button className='bg-blue-600 hover:bg-blue-700 active:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all cursor-pointer'>Recrutez-moi</button>

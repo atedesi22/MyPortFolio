@@ -12,8 +12,8 @@ const Home = () =>
             <Navbar/>
         {/* <MobileNavbar/> */}
             <Header/> 
-            <h1>My Portfolio</h1>
-            <span>Codage en direct</span>
+            {/* <h1>My Portfolio</h1>
+            <span>Codage en direct</span> */}
 
         </body>
         

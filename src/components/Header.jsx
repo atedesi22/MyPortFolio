@@ -6,18 +6,27 @@ const Header = () => {
     const [visitCount, setVisitCount] = useState(0);
     
     useEffect(() => {
-        const savedVisits = localStorage.getItem('visitor_count') || 1240;
-        const newCount = parseInt(savedVisits) + 1;
-        setVisitCount(newCount);
-        localStorage.setItem('visitor_count', newCount);
-    }, [])
+
+        fetch('https://api.countapi.xyz/hit/ut_NmBFuVMRDDuriMAoRjqXytwTxFs9NbCQdC5aIfdk/visits')
+            .then(res => res.json())
+            .then(data => {
+            setVisitCount(data.value);
+            })
+            .catch(err => console.error("Erreur compteur:", err));
+        }, []);
+    //     const savedVisits = localStorage.getItem('visitor_count') || 1240;
+    //     const newCount = parseInt(savedVisits) + 1;
+    //     setVisitCount(newCount);
+    //     localStorage.setItem('visitor_count', newCount);
+    // }, [])
 
     return(
         <>
             <section className="relative h-screen flex flex-col justify-center items-center  bg-slate-900 overflow-hidden ">
-                <div className="absolute top-0 left-0 w-full opacity-20 pointer-events-none">
-                    <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-[120px]"></div>
-                    <div className=" absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600 rounded-full filter blur-[120px]"></div>
+                <div className="absolute top-0 left-0 w-full opacity-40 pointer-events-none">
+                    <img src="/yoyo.png" alt="" className=" "/>
+                    <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-[100px]"></div>
+                    <div className=" absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600 rounded-full filter blur-[100px]"></div>
                 </div>
 
                 <motion.div

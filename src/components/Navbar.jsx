@@ -62,7 +62,7 @@ const Navbar = () =>
                 </div>
                 {mobileMenuOpen && (
                     <div className='absolute top-full left-0 w-full bg-slate-900 border-t border-slate-800 p-6 flex flex-col gap-4 md:hidden'>
-                        {navLinks.map((link) => {
+                        {navLinks.map((link) => (
                             <a 
                             key={link.name} 
                             href={link.href} 
@@ -71,7 +71,7 @@ const Navbar = () =>
                             >
                             {link.name}
                             </a>
-                        })}
+                        ))}
                     </div>
                 )}
                 

@@ -24,7 +24,7 @@ const Header = () => {
         <>
             <section className="relative h-screen flex flex-col justify-center items-center  bg-slate-900 overflow-hidden ">
                 <div className="absolute top-0 left-0 w-full opacity-40 pointer-events-none">
-                    <img src="/yoyo.png" alt="" className=" "/>
+                    <img src="/yoyo.png" alt="" className=" w-full"/>
                     <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-[100px]"></div>
                     <div className=" absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600 rounded-full filter blur-[100px]"></div>
                 </div>

@@ -23,7 +23,7 @@ function App() {
         <footer className='bg-slate-950 py-20 border-t border-slate-800'>
           <div className='max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16'>
             
-            <Contact />
+            <Contact id='contact'/>
             <Shop id='shop'/>
           </div>
 

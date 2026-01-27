@@ -14,7 +14,9 @@ const Home = () =>
             <Header/> 
             {/* <h1>My Portfolio</h1>
             <span>Codage en direct</span> */}
-
+            <footer>
+                
+            </footer>
         </body>
         
         </>

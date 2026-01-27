@@ -5,7 +5,7 @@ import { Download, Mail } from "lucide-react";
 const Contact = () =>{
     return(
         <>
-            <div>
+            <div id='contact'>
                 <h3 className="text-3xl font-bold text-white mb-6">Prêt à collaborer ?</h3>
                 <p className="text-gray-400 mb-8">
                     Que ce soit pour une opportunité locale, etrangere, une mission freelance ou juste pour discuter tech, ma boîte mail est ouverte.

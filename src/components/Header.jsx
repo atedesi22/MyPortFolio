@@ -45,7 +45,7 @@ const Header = () => {
           <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 active:bg-blue-700 rounded-4xl font-semibold transition-all shadow-lg shadow-blue-500/20">
             Voir mes projets
           </button>
-          <a href="/Atedesi_cv.pdf" className="px-8 py-4 border border-slate-700 hover:bg-slate-800 active:bg-slate-800 rounded-4xl font-semibold transition-all" download >
+          <a href="/atedesi_cv.pdf" className="px-8 py-4 border border-slate-700 hover:bg-slate-800 active:bg-slate-800 rounded-4xl font-semibold transition-all" download >
             Télécharger mon CV
           </a>
         </div>

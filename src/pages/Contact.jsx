@@ -14,7 +14,7 @@ const Contact = () =>{
                     <a href="mailto:boholepaul@icloud.com" className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors">
                     <Mail size={20} /> boholepaul@icloud.com
                     </a>
-                    <a href="/CV_Atedesi.pdf" download className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white w-fit px-6 py-3 rounded-4xl transition-all">
+                    <a href="/CV_Atedesi.pdf" className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white w-fit px-6 py-3 rounded-4xl transition-all" download>
                     <Download size={20} /> Télécharger mon CV (PDF)
                     </a>
                 </div>

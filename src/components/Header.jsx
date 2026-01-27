@@ -46,7 +46,7 @@ const Header = () => {
                     </p>
                     <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
                         <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-4xl font-semibold transition-all shadow-lg shadow-blue-500/20">Voir mes projets</button>
-                        <button className="px-8 py-4 border-slate-700 hover:bg-slate-800 active:bg-slate-800 border rounded-4xl font-semibold transition-all">Telecharger mon CV</button>
+                        <a href='/CV_Atedesi.pdf' className="px-8 py-4 border-slate-700 hover:bg-slate-800 active:bg-slate-800 border rounded-4xl font-semibold transition-all" download>Telecharger mon CV</a>
                     </div>
                 </motion.div>
                    

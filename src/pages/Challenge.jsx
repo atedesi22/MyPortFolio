@@ -10,7 +10,9 @@ const Challenges = () => {
       status: "En cours", // ou "Terminé"
       tech: ["React", "Recharts", "Tailwind"],
       description: "Système de gestion de micro-crédits avec visualisation de données en temps réel.",
-      image: "https://via.placeholder.com/400x250/1e293b/60a5fa?text=FinanceFlow+Preview" 
+      image: "https://via.placeholder.com/400x250/1e293b/60a5fa?text=FinanceFlow+Preview",
+      link: 'https://financeflow-eosin.vercel.app',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
     },
     // Les prochains challenges s'ajouteront ici
   ];
@@ -61,12 +63,12 @@ const Challenges = () => {
                   ))}
                 </div>
                 <div className="flex gap-4 border-t border-slate-700 pt-4">
-                  <button className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
+                  <a href={item.link} blank className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
                     <ExternalLink size={14} /> Démo
-                  </button>
-                  <button className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
+                  </a>
+                  <a href={item.code} blank className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
                     <Github size={14} /> Code
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>

@@ -10,7 +10,7 @@ const Challenges = () => {
       status: "En cours", // ou "Terminé"
       tech: ["React", "Recharts", "Tailwind"],
       description: "Système de gestion de micro-crédits avec visualisation de données en temps réel.",
-      image: "https://via.placeholder.com/400x250/1e293b/60a5fa?text=FinanceFlow+Preview",
+      image: "/financeflow.png",
       link: 'https://financeflow-eosin.vercel.app',
       code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
     },

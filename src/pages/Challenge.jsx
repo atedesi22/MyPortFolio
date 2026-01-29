@@ -66,9 +66,9 @@ const Challenges = () => {
                   <a href={item.link} blank className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
                     <ExternalLink size={14} /> Démo
                   </a>
-                  <a href={item.code} blank className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
+                  {/* <a href={item.code} blank className="flex items-center gap-2 text-xs text-white hover:text-blue-400 transition-colors">
                     <Github size={14} /> Code
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </motion.div>

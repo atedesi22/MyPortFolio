@@ -7,11 +7,21 @@ const Challenges = () => {
     {
       week: "Semaine 01",
       title: "FinanceFlow Dashboard",
-      status: "En cours", // ou "Terminé"
+      status: "Termine", // ou "Terminé"
       tech: ["React", "Recharts", "Tailwind"],
       description: "Système de gestion de micro-crédits avec visualisation de données en temps réel.",
       image: "/financeflow.png",
       link: 'https://financeflow-eosin.vercel.app',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
+    },
+    {
+      week: "Semaine 02",
+      title: ' NovaLogistics (ou "The Cargo Tracker").',
+      status: "En cours", // ou "Terminé"
+      tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
+      description: "Système de suivi de fret maritime et aérien optimisé pour les transitaires import-export.",
+      image: "/financeflow.png",
+      link: 'https://nova-logistics.vercel.app',
       code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
     },
     // Les prochains challenges s'ajouteront ici

@@ -20,7 +20,7 @@ const Challenges = () => {
       status: "En cours", // ou "Terminé"
       tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
       description: "Système de suivi de fret maritime et aérien optimisé pour les transitaires import-export.",
-      image: "",
+      image: "/novalogistic.png",
       link: 'https://nova-logistics.vercel.app',
       code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
     },

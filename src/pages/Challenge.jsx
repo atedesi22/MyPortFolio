@@ -7,7 +7,7 @@ const Challenges = () => {
     {
       week: "Semaine 01",
       title: "FinanceFlow Dashboard",
-      status: "Termine", // ou "Terminé"
+      status: "Terminé", // ou "Terminé"
       tech: ["React", "Recharts", "Tailwind"],
       description: "Système de gestion de micro-crédits avec visualisation de données en temps réel.",
       image: "/financeflow.png",
@@ -17,7 +17,7 @@ const Challenges = () => {
     {
       week: "Semaine 02",
       title: ' NovaLogistics (ou "The Cargo Tracker").',
-      status: "En cours", // ou "Terminé"
+      status: "Terminé", // ou "Terminé"
       tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
       description: "Système de suivi de fret maritime et aérien optimisé pour les transitaires import-export.",
       image: "/novalogistic.png",

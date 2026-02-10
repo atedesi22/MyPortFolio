@@ -26,7 +26,7 @@ const Challenges = () => {
     },
     {
       week: "Semaine 03",
-      title: ' PilotPro (ou "The Cargo Tracker").',
+      title: ' PilotPro.',
       status: "En cours", // ou "Terminé"
       tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
       description: "",

@@ -24,6 +24,16 @@ const Challenges = () => {
       link: 'https://nova-logistics.vercel.app',
       code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
     },
+    {
+      week: "Semaine 03",
+      title: ' PilotPro (ou "The Cargo Tracker").',
+      status: "En cours", // ou "Terminé"
+      tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
+      description: "",
+      image: "",
+      link: 'https://pilot-pro-sage.vercel.app/',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
+    },
     // Les prochains challenges s'ajouteront ici
   ];
 

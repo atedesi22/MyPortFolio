@@ -34,6 +34,46 @@ const Challenges = () => {
       link: 'https://pilot-pro-sage.vercel.app/',
       code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
     },
+    {
+      week: "Semaine 04",
+      title: "AS-SHOP",
+      status: "Terminé", // ou "Terminé"
+      tech: ["React", "", "Tailwind"],
+      description: "Boutique en ligne pour la vente de vetements avec redirection whatsapp.",
+      image: "/ashop.png",
+      link: 'https://as-shop-seven.vercel.app/',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
+    },
+    {
+      week: "Semaine 05",
+      title: ' DailyGlow.',
+      status: "Terminé", // ou "Terminé"
+      tech: ["ReactJs", "Vite", "Tailwind", "Responsive Design"],
+      description: "Boutique en ligne pour la vente de bijoux avec redirection whatsapp.",
+      image: "/dailyglow.png",
+      link: 'https://daily-glow-eta.vercel.app/',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
+    },
+    {
+      week: "Semaine 06",
+      title: ' DMC-EMPIRE.',
+      status: "En cours", // ou "Terminé"
+      tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
+      description: "Boutique en ligne pour la vente de greffes et accessoires avec redirection whatsapp.",
+      image: "/dmc.png",
+      link: 'https://dmc-empire.vercel.app/',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
+    },
+    {
+      week: "Semaine 07",
+      title: ' Kamelon.',
+      status: "En cours", // ou "Terminé"
+      tech: ["React 19", "Vite", "Tailwind", "Responsive Design"],
+      description: "Créer des écosystèmes qui marquent l'époque et connectent les idées.",
+      image: "/kameleon.png",
+      link: 'https://kameleon-bice.vercel.app/',
+      code: 'https://github.com/atedesi22/FinanceFlow-Dashboard.git' 
+    },
     // Les prochains challenges s'ajouteront ici
   ];
 
